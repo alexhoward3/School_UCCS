@@ -1,0 +1,32 @@
+Header: CS2060
+Name: Name
+Message1: Likes/Dislikes of class
+Message2: What should your grade be? Why?
+Key: Password
+________________________________________
+Sizes:
+write(CS2060) 			//six char only
+write(keyindex)			//Write 0 first
+write(namesize) 		//uint32_t
+write(name)				//String with size of namesize
+write(message1size)
+write(message1)
+write(message2size)
+encrypt(message2)
+write(message2)			//Encrypted
+
+keyindex -> write(keysize)
+			write(key)				
+			
+________________________________________
+w header
+w ? index
+w m1s
+w m1
+w m2s
+w m2
+index = get loc 	//ftell(FILE *fh)
+w ks
+w k
+move 6 				//fseek(FILE * fh, int pos, SEEK_SET)
+w index

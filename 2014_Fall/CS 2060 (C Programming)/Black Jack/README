@@ -1,0 +1,30 @@
+Alex Howard
+BlackJack
+
+Files:
+blackjack.c
+blackjack.exe
+README
+
+Purpose:
+To create a robust and fully functional game of BlackJack to
+be played by one player against the computer.
+
+Compilation:
+Manual compile using Cygwin 2.850(64 bit) and the GNU Compiler Collection.
+gcc --std=c99 helloworld.c -o helloworld
+
+Problems Encountered:
+I had to use pointers to pass cards back to the dealer and the player's hand arrays.
+Using a struct to create an "object" probably was slightly beyond my capabilities before
+I tried it but it managed to turn out okay. I'm not quite sure I used structs in the "proper" format
+however...
+
+Testing:
+I had to test for each "end" or "win" condition. Running the program as many times as I could while also
+forcing the dealer or player to have specific hands was part of it. For example, I tested the player and
+dealer having one or more aces. All inputs and numbers were also bounds-checked to make sure they did not
+induce an error. The bet could not be higher than the token amount etc.
+
+Making the assignment better:
+I thought the assignment was fine.

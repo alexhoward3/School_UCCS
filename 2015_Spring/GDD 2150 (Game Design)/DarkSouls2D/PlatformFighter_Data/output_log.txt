@@ -1,0 +1,87 @@
+Initialize engine version: 5.0.1f1 (5a2e8fe35a68)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 780 Ti  (ID=0x100a)
+    Vendor:   NVIDIA
+    VRAM:     3013 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: \\PULSAR\D..Store\Code\GDD-2150\Group5\PlatformFighterREV16\PlatformFighter\PlatformFighter_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading \\PULSAR\D..Store\Code\GDD-2150\Group5\PlatformFighterREV16\PlatformFighter\PlatformFighter_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: \\PULSAR\D..Store\Code\GDD-2150\Group5\PlatformFighterREV16\PlatformFighter\PlatformFighter_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading \\PULSAR\D..Store\Code\GDD-2150\Group5\PlatformFighterREV16\PlatformFighter\PlatformFighter_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: \\PULSAR\D..Store\Code\GDD-2150\Group5\PlatformFighterREV16\PlatformFighter\PlatformFighter_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading \\PULSAR\D..Store\Code\GDD-2150\Group5\PlatformFighterREV16\PlatformFighter\PlatformFighter_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: \\PULSAR\D..Store\Code\GDD-2150\Group5\PlatformFighterREV16\PlatformFighter\PlatformFighter_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading \\PULSAR\D..Store\Code\GDD-2150\Group5\PlatformFighterREV16\PlatformFighter\PlatformFighter_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  2.106 seconds
+desktop: 2560x1600 60Hz; virtual: 7520x1600 at -1440,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: \\PULSAR\D..Store\Code\GDD-2150\Group5\PlatformFighterREV16\PlatformFighter\PlatformFighter_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: \\PULSAR\D..Store\Code\GDD-2150\Group5\PlatformFighterREV16\PlatformFighter\PlatformFighter_Data\Managed\System.dll (this message is harmless)
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: fc44 -> priority: 1 
+  Thread -> id: fd64 -> priority: 1 
+  Thread -> id: e5d4 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 47.288143 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3388.
+Total: 3.047399 ms (FindLiveObjects: 0.104043 ms CreateObjectMapping: 0.030701 ms MarkObjects: 2.900431 ms  DeleteObjects: 0.011655 ms)
+
+UnityException: Tag: Weapon is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at Player.EquipWeapon () [0x00000] in <filename unknown>:0 
+  at Player.GetInput () [0x00000] in <filename unknown>:0 
+  at Player.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Weapon is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at Player.EquipWeapon () [0x00000] in <filename unknown>:0 
+  at Player.GetInput () [0x00000] in <filename unknown>:0 
+  at Player.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Weapon is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at Player.EquipWeapon () [0x00000] in <filename unknown>:0 
+  at Player.GetInput () [0x00000] in <filename unknown>:0 
+  at Player.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Weapon is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at Player.EquipWeapon () [0x00000] in <filename unknown>:0 
+  at Player.GetInput () [0x00000] in <filename unknown>:0 
+  at Player.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Weapon is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at Player.EquipWeapon () [0x00000] in <filename unknown>:0 
+  at Player.GetInput () [0x00000] in <filename unknown>:0 
+  at Player.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag: Weapon is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at Player.EquipWeapon () [0x00000] in <filename unknown>:0 
+  at Player.GetInput () [0x00000] in <filename unknown>:0 
+  at Player.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.330678 ms
+
+Unloading 196 unused Assets to reduce memory usage. Loaded Objects now: 256.
+Total: 0.666334 ms (FindLiveObjects: 0.015919 ms CreateObjectMapping: 0.010233 ms MarkObjects: 0.153791 ms  DeleteObjects: 0.485821 ms)
+
